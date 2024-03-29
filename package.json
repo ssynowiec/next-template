@@ -1,5 +1,11 @@
 {
 	"name": "next-template",
+	"author": "Stanisław Synowiec <stanislaw@ssynowiec.pl> (https://ssynowiec.pl)",
+	"description": "Next.js template with TypeScript, Tailwind CSS, ESLint, Prettier, and more.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ssynowiec/next-template"
+	},
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
