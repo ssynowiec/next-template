@@ -25,7 +25,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
 		<html lang="en">
 			<body
 				className={cn(
-					'bg-background min-h-screen font-sans antialiased',
+					'min-h-screen bg-background font-sans antialiased',
 					fontSans.variable,
 				)}
 			>
