@@ -1,6 +1,6 @@
 import { type Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.css';
+import './globals.scss';
 import type { ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -23,7 +23,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
 		<html lang="en">
 			<body
 				className={cn(
-					'bg-background min-h-screen font-sans antialiased',
+					'min-h-screen bg-background font-sans antialiased',
 					fontSans.variable,
 				)}
 			>
